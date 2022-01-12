@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./Screens/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ReactQueryDevtools } from "react-query/devtools";
+import Main from "./components/Main";
+import Cart from "./components/Cart";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='app'>
+			<BrowserRouter>
+				<Routes>
+					<Route path='/' element={<Home />}>
+						<Route path='main' element={<Main />} />
+						<Route path='cart' element={<Cart />} />
+					</Route>
+					<Route path='/*' element={<p>error 404</p>} />
+				</Routes>
+				<ReactQueryDevtools initialIsOpen={false} />
+			</BrowserRouter>
+		</div>
+	);
 }
 
 export default App;

@@ -1,0 +1,21 @@
+.items {
+	top: 74px;
+	position: sticky;
+	border-radius: 10px;
+	height: fit-content;
+	z-index: 999;
+	background-color: #fff;
+}
+
+.items > ul {
+	list-style: none;
+	display: flex;
+}
+
+.items > ul > li {
+	flex: 1;
+	padding: 0.5em;
+	text-align: center;
+	border-right: 1px solid #ccc;
+	border-bottom: 3px solid #ccc;
+}

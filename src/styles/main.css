@@ -1,0 +1,29 @@
+.main {
+	flex: 0.8;
+}
+
+.main__body__right__preorder {
+	cursor: pointer;
+	margin-left: 30px;
+	max-width: 280px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+		rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+	height: 200px;
+}
+
+.main__body__right__preorder > img {
+	width: 250px;
+	margin-left: 20px;
+	transition: all 0.3s ease-in-out;
+}
+
+.main__body__right__preorder > img:hover {
+	transform: scale(1.1);
+}
+
+.main__body__right__preorder > p {
+	margin-left: 50px;
+	color: #999;
+}

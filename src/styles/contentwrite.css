@@ -1,0 +1,23 @@
+.vl {
+	border-left: 8px solid #44bd32;
+	border-radius: 5px;
+	height: 50px;
+	margin-top: 25px;
+}
+.main__body__right__text {
+	margin-top: 25px;
+	margin-left: 10px;
+	display: flex;
+	background-color: #f1f1f1;
+	height: 100px;
+}
+
+.main__body__right__text__text {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.main__body__right__text__text > h3 {
+	font-weight: bolder;
+	font-size: 25px;
+	color: #444;
+}

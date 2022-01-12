@@ -1,0 +1,132 @@
+.navbar {
+	height: 74px;
+	border-bottom: 3px solid #006a4e;
+	position: sticky;
+	top: 0;
+	background-color: white;
+
+	border-bottom: 0.1px solid lightgray;
+	width: 100%;
+	z-index: 999;
+}
+.navbar__container {
+	display: flex;
+}
+
+.navbar__container__logo {
+	padding: 10px 20px;
+	flex: 0.5;
+}
+
+.navbar__container__logo > a > img {
+	width: 150px;
+	height: 50px;
+}
+
+.navbar__container__rightside {
+	flex: 0.5;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navbar__container__rightside__search {
+	cursor: pointer;
+}
+
+.navbar__container__rightside__locationMark {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.navbar__container__rightside__signin {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.navbar__container__rightside__cart {
+	cursor: pointer;
+}
+
+.arrowed {
+	display: flex;
+	justify-content: space-between;
+
+	margin-right: 5px;
+}
+/* -- ARROW 4      -- */
+
+.arrow-4 {
+	/* duplicate the triange */
+	position: relative;
+	height: 0px;
+	width: 0px;
+	border: 8px solid;
+	border-color: #006a4e #006a4e transparent transparent;
+	transform: rotate(45deg);
+}
+
+.arrow-4:before,
+.arrow-4:after {
+	content: "";
+	display: block;
+	position: absolute;
+
+	/* set up more triangles */
+	height: 0;
+	width: 0;
+
+	/* half the parent border
+	   rounded up */
+	border: 5px solid;
+}
+
+.arrow-4:before {
+	border-color: #006a4e transparent transparent #006a4e;
+	display: block;
+	top: -1px;
+	right: 0px;
+	transform-origin: top right;
+	transform: rotate(45deg);
+}
+
+.arrow-4:after {
+	border-color: transparent #006a4e #006a4e transparent;
+	top: 0px;
+	right: -1px;
+	transform-origin: top right;
+	transform: rotate(-45deg);
+}
+
+.navbar__container__rightside__cartDetails {
+	display: flex;
+	flex-direction: column;
+	width: 130px;
+	background-color: #006a4e;
+	height: 73px;
+	cursor: pointer;
+}
+
+.navbar__container__rightside__cartDetails > hr {
+	min-width: 40px;
+}
+
+.navbar__container__rightside__cartDetails__cart {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	height: 32px;
+}
+
+.navbar__container__rightside__cartDetails__cart > p {
+	margin-left: 5px;
+}
+
+.navbar__container__rightside > a {
+	text-decoration: none;
+}

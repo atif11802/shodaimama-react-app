@@ -1,0 +1,53 @@
+.main__body__right__why__shodaimama {
+	margin-top: 10px;
+}
+
+.main__body__right__why__shodaimama > h2 {
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	font-weight: bolder;
+	font-size: 26px;
+	color: #444;
+	border-bottom: 3px solid #006a4e;
+	letter-spacing: 4px;
+	max-width: 300px;
+}
+
+.main__body__right__why__shodaimama__container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+	margin-right: 20px !important;
+}
+
+.main__body__right__why__shodaimama__single {
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+		rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 10px;
+	border-radius: 8px;
+	margin-left: 10px;
+	padding: 24px 10px !important;
+}
+
+.main__body__right__why__shodaimama__single > img {
+	width: 100px;
+	padding: 5px 0px;
+	transition: all 0.4s ease-in-out;
+}
+
+.main__body__right__why__shodaimama__single > h1 {
+	font-size: 18px;
+	text-align: center;
+}
+
+.main__body__right__why__shodaimama__single > p {
+	font-size: 15px;
+	text-align: center;
+}

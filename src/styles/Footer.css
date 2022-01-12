@@ -1,0 +1,104 @@
+.main__body__right__footer {
+	background-color: #f6f6f6;
+	margin-top: 60px;
+}
+
+.main__body__right__footer__contacts {
+	height: 240px;
+}
+
+.main__body__right__footer__main__contacts {
+	width: 280px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.main__body__right__footer__main__contacts > img {
+	width: 120px;
+	margin-top: 20px;
+}
+
+.main__body__right__footer__main__contacts__socialmedia > a {
+	text-decoration: none;
+	color: #006a4e;
+	font-size: 20px;
+	transition: all 0.4s;
+}
+
+.main__body__right__footer__main__contacts__socialmedia {
+	margin-top: 10px;
+	width: 240px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.main__body__right__footer__main__contacts__socialmedia > a:hover {
+	color: #f26f2a;
+}
+
+.main__body__right__footer__main__contacts > a {
+	text-decoration: none;
+	background-color: #31846e;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bolder;
+	transition: all 0.4s;
+	padding: 7px 20px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.main__body__right__footer__main__contacts > p {
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+.main__body__right__footer__contacts {
+	display: flex;
+}
+
+.main__body__right__footer__main__usefulLinks {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 270px;
+}
+
+.main__body__right__footer__main__usefulLinks > ul {
+	list-style: none;
+	margin-right: 20px;
+}
+
+.main__body__right__footer__main__usefulLinks > ul > li {
+	margin-top: 10px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.main__body__right__footer__main__usefulLinks > ul > li > h2 {
+	font-size: 15px;
+	font-weight: 26px;
+}
+
+.main__body__right__footer__main__usefulLinks > ul > li > i {
+	color: #006a4e;
+	margin-right: 5px;
+}
+
+.main__body__right__footer__main__usefulLinks > ul > li > button {
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.main__body__right__footer__payments {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.main__body__right__footer__payments > img {
+	width: 93%;
+}
