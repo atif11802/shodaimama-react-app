@@ -1,6 +1,5 @@
 import Home from "./Screens/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { ReactQueryDevtools } from "react-query/devtools";
 import Main from "./components/Main";
 import Cart from "./components/Cart";
 
@@ -15,7 +14,6 @@ function App() {
 					</Route>
 					<Route path='/*' element={<p>error 404</p>} />
 				</Routes>
-				<ReactQueryDevtools initialIsOpen={false} />
 			</BrowserRouter>
 		</div>
 	);
