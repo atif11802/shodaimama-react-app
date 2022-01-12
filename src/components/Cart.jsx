@@ -106,7 +106,7 @@ const Cart = () => {
 							</p>
 							<p>Cash & Digital Payment Accepted.</p>
 						</div>
-						<div className='cart__details__items__right_items'>
+						<div className='cart__details__items__right_items' id='style-2'>
 							{cart.map((item) => (
 								<div className='cart__details__items__right' key={item.id}>
 									<div className='cart__details__items__right__buttons'>
