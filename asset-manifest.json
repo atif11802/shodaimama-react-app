@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/shodaimama-react-app/static/css/main.2feee349.css",
+    "main.js": "/shodaimama-react-app/static/js/main.caf667bb.js",
+    "static/media/lfYjG51639978759343YtI18U.png": "/shodaimama-react-app/static/media/lfYjG51639978759343YtI18U.80d5a15c2498a0a209b4.png",
+    "static/media/r59HnY1639978584493djXc1w.png": "/shodaimama-react-app/static/media/r59HnY1639978584493djXc1w.9bd71f3a22411d2a31d4.png",
+    "static/media/SSLCommerz-Pay-With-logo-All-Size-05.b4efc4ca (1).png": "/shodaimama-react-app/static/media/SSLCommerz-Pay-With-logo-All-Size-05.b4efc4ca (1).b4efc4ca6e89bd855e82.png",
+    "static/media/rrJQWI163997863637200iQTQ.png": "/shodaimama-react-app/static/media/rrJQWI163997863637200iQTQ.c230d86e83f5dc3baa8c.png",
+    "static/media/playtime.png": "/shodaimama-react-app/static/media/playtime.9ba309afa4405dfa5ef9.png",
+    "static/media/meat.png": "/shodaimama-react-app/static/media/meat.eee888fae8a9406c9864.png",
+    "static/media/vegetable.png": "/shodaimama-react-app/static/media/vegetable.767c66e211ab13d4de97.png",
+    "static/media/makeover.png": "/shodaimama-react-app/static/media/makeover.3ac3ccc40db0e96fa2db.png",
+    "static/media/shopping.png": "/shodaimama-react-app/static/media/shopping.40d4ca658730afbccc67.png",
+    "static/media/frozen-food.png": "/shodaimama-react-app/static/media/frozen-food.ee1520787761cc57808c.png",
+    "static/media/salary.png": "/shodaimama-react-app/static/media/salary.e8468209dcea43e37176.png",
+    "static/media/free.png": "/shodaimama-react-app/static/media/free.4aeb37d428a0d3fa0acf.png",
+    "static/media/fast-delivery.png": "/shodaimama-react-app/static/media/fast-delivery.90f52645b4dbabbae3da.png",
+    "static/media/fresh-air.png": "/shodaimama-react-app/static/media/fresh-air.9197eb78a3aa384a07c5.png",
+    "static/media/fast-food.png": "/shodaimama-react-app/static/media/fast-food.f69fa4942a666aa53712.png",
+    "static/media/cooking.png": "/shodaimama-react-app/static/media/cooking.74b847a79919accf12c1.png",
+    "static/media/customer-service.png": "/shodaimama-react-app/static/media/customer-service.e842e96da93840e2f278.png",
+    "static/media/drinks.png": "/shodaimama-react-app/static/media/drinks.472d8e330925133d7a4f.png",
+    "static/media/stationery.png": "/shodaimama-react-app/static/media/stationery.34d405b6a3438d4bf4f5.png",
+    "static/media/money.png": "/shodaimama-react-app/static/media/money.3667b5556c076d57419e.png",
+    "static/media/kitchen.png": "/shodaimama-react-app/static/media/kitchen.c8df86109d6e901046d8.png",
+    "static/media/delivery.png": "/shodaimama-react-app/static/media/delivery.21b7469e43688603c9bb.png",
+    "static/media/dairy.png": "/shodaimama-react-app/static/media/dairy.81c6dd11cb6f2ba7fd13.png",
+    "index.html": "/shodaimama-react-app/index.html",
+    "main.2feee349.css.map": "/shodaimama-react-app/static/css/main.2feee349.css.map",
+    "main.caf667bb.js.map": "/shodaimama-react-app/static/js/main.caf667bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2feee349.css",
+    "static/js/main.caf667bb.js"
+  ]
+}
