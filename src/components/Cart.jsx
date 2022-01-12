@@ -138,10 +138,11 @@ const Cart = () => {
 							<p>{cart.length} Items</p>
 						</div>
 						<div className='cart__details__checkout__middle'>
-							<strong>Total : {itemsPrice.toFixed(2)}</strong>
+							<strong>Total : {isChecked ? itemsPrice.toFixed(2) : 0}</strong>
 						</div>
 						<div className='cart__details__checkout__right'>
-							<Link to='/main'>PlaceOrder</Link>
+							{isChecked && <Link to='/main'>PlaceOrder</Link>}
+
 							<button onClick={moveToHome}> x</button>
 						</div>
 					</div>
