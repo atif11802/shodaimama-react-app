@@ -24,7 +24,6 @@ const Navbar = () => {
 	const itemsPrice = cart.reduce((a, c) => a + c.qty * c.price, 0);
 
 	const totalqty = cart.reduce((a, c) => a + c.qty, 0);
-	console.log(totalqty);
 
 	return (
 		<div className='navbar'>

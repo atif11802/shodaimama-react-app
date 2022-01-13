@@ -42,6 +42,7 @@ const Cart = () => {
 	const moveToHome = () => {
 		navigate("/main");
 	};
+	const totalqty = cart.reduce((a, c) => a + c.qty, 0);
 
 	return (
 		<div className='cart'>
@@ -89,14 +90,14 @@ const Cart = () => {
 								11:00 AM.
 							</p>
 							<p>
-								<strong> Delivery Charges </strong> ৳ 0
+								<strong> Delivery Charges </strong>: ৳ 0
 							</p>
 							<p>
 								{" "}
 								<strong>Items</strong> : {cart.length}
 							</p>
 							<p>
-								<strong>Total</strong> : ৳{" "}
+								<strong>Total</strong> :{" "}
 								<NumberFormat
 									value={itemsPrice.toFixed(2)}
 									displayType={"text"}
@@ -135,7 +136,7 @@ const Cart = () => {
 					<div className='cart__details__checkout'>
 						<div className='cart__details__checkout__left'>
 							<i className='far fa-shopping-cart'></i>
-							<p>{cart.length} Items</p>
+							<p>{totalqty} Items</p>
 						</div>
 						<div className='cart__details__checkout__middle'>
 							<strong>Total : {isChecked ? itemsPrice.toFixed(2) : 0}</strong>
